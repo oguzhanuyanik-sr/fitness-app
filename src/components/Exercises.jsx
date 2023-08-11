@@ -24,7 +24,6 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   };
 
   useEffect(() => {
-    console.log(exerciseOptions);
     const fetchExercisesData = async () => {
       let exercisesData = [];
 
